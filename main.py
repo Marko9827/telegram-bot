@@ -15,7 +15,7 @@ def start(update: Update, context: CallbackContext) -> None:
 
 def welcome_message(update: Update, context: CallbackContext) -> None:
     user = update.effective_user
-    update.message.reply_text(f'Welcome, {user.first_name} <3 \n please don't spam, don't discuss politics, don\'t post about freelancers, admins see and ban everything!')
+    update.message.reply_text(f'Welcome, {user.first_name} <3 \n Please don\'t spam, don\'t discuss politics, don\'t post about freelancers, admins see and ban everything!')
 
 def main() -> None:
     # Create the Updater and pass it your bot's token
